@@ -2,7 +2,7 @@
 
 # Klaude - Kotlin Client for Claude from Anthropic
   [![Maven Central](https://img.shields.io/maven-central/v/com.klaude/klaude?color=blue&label=Download)](https://central.sonatype.com/namespace/com.klaude)
-  [![License](https://img.shields.io/github/license/WeaponMechanics/ArmorMechanics)](https://github.com/WeaponMechanics/ArmorMechanics/blob/master/LICENSE)
+  [![License](https://img.shields.io/github/license/paulotaylor/klaude)](https://github.com/paulotaylor/klaude/blob/main/LICENSE)
 
 A community-maintained easy-to-use Java/Kotlin Claude API
 </div>
