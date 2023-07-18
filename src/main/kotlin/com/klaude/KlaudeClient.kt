@@ -6,11 +6,10 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.encodeToString
 
+/**
+ * Kotlin client for the Claude API
+ */
 class KlaudeClient private constructor(builder: Builder){
-
-    companion object {
-        const val TAG = "KlaudeClient"
-    }
 
     private var jsonBuilder = Json {
         this.ignoreUnknownKeys = true
@@ -31,6 +30,9 @@ class KlaudeClient private constructor(builder: Builder){
         this.temperature = builder.temperature
     }
 
+    /**
+     * Check required parameters
+     */
     private fun check() {
         if (apiKey.isNullOrBlank()) {
             throw IllegalStateException("apiKey is null or blank")
@@ -43,6 +45,9 @@ class KlaudeClient private constructor(builder: Builder){
         }
     }
 
+    /**
+     * Builder for the KlaudeClient
+     */
     class Builder {
         var apiKey: String? = null
             private set
@@ -60,6 +65,11 @@ class KlaudeClient private constructor(builder: Builder){
     }
 
 
+    /**
+     * Claude API interation with a chat format
+     * @param messages List of chat messages
+     * @param listener Callback for the completion result
+     */
     fun chat(messages: List<KlaudeMessage>, listener: (String?) -> Unit) {
         var prompt = ""
         messages.forEach { message ->
@@ -79,10 +89,21 @@ class KlaudeClient private constructor(builder: Builder){
         prompt += "\n\nAssistant:"
         execute(prompt, listener)
     }
+
+    /**
+     * Execute the Claude completion API enfpoint
+     * @param text Text to complete ex: "How far is the moon?"
+     * @param listener Callback for the completion result
+     */
     fun complete(text: String, listener: (String?) -> Unit) {
         execute("\n\nHuman:$text\n\nAssistant:", listener)
     }
 
+    /**
+     * Exceite the Calude completion AI endpoind
+     * @param prompt Text to complete. Should start with "\n\nHuman:" and should end with "\n\nAssistant:"
+     * @param listener Callback for the completion result
+     */
     fun execute(prompt: String, listener: (String?) -> Unit) {
         try {
             check()
@@ -95,7 +116,7 @@ class KlaudeClient private constructor(builder: Builder){
             httpAsync.header(headers)
             httpAsync.timeoutRead(timeout)
             httpAsync.timeout(timeout)
-            httpAsync.responseString { request, response, res ->
+            httpAsync.responseString { _, _, res ->
                 try {
                     val json = res.get()
                     val response =
