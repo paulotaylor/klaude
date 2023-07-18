@@ -1,0 +1,40 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.klaude////PointingToDeclaration/-klaude/com.klaude/index.html
+$dokka.location:com.klaude/KlaudeClient.Builder///PointingToDeclaration/-klaude/com.klaude/-klaude-client/-builder/index.html
+$dokka.location:com.klaude/KlaudeClient.Builder/Builder/#/PointingToDeclaration/-klaude/com.klaude/-klaude-client/-builder/-builder.html
+$dokka.location:com.klaude/KlaudeClient.Builder/apiKey/#/PointingToDeclaration/-klaude/com.klaude/-klaude-client/-builder/api-key.html
+$dokka.location:com.klaude/KlaudeClient.Builder/build/#/PointingToDeclaration/-klaude/com.klaude/-klaude-client/-builder/build.html
+$dokka.location:com.klaude/KlaudeClient.Builder/key/#kotlin.String/PointingToDeclaration/-klaude/com.klaude/-klaude-client/-builder/key.html
+$dokka.location:com.klaude/KlaudeClient.Builder/maxTokens/#/PointingToDeclaration/-klaude/com.klaude/-klaude-client/-builder/max-tokens.html
+$dokka.location:com.klaude/KlaudeClient.Builder/maxTokensToSample/#kotlin.Int/PointingToDeclaration/-klaude/com.klaude/-klaude-client/-builder/max-tokens-to-sample.html
+$dokka.location:com.klaude/KlaudeClient.Builder/model/#/PointingToDeclaration/-klaude/com.klaude/-klaude-client/-builder/model.html
+$dokka.location:com.klaude/KlaudeClient.Builder/model/#kotlin.String/PointingToDeclaration/-klaude/com.klaude/-klaude-client/-builder/model.html
+$dokka.location:com.klaude/KlaudeClient.Builder/temperature/#/PointingToDeclaration/-klaude/com.klaude/-klaude-client/-builder/temperature.html
+$dokka.location:com.klaude/KlaudeClient.Builder/timeout/#/PointingToDeclaration/-klaude/com.klaude/-klaude-client/-builder/timeout.html
+$dokka.location:com.klaude/KlaudeClient.Builder/timeout/#kotlin.Int/PointingToDeclaration/-klaude/com.klaude/-klaude-client/-builder/timeout.html
+$dokka.location:com.klaude/KlaudeClient///PointingToDeclaration/-klaude/com.klaude/-klaude-client/index.html
+$dokka.location:com.klaude/KlaudeClient/chat/#kotlin.collections.List[com.klaude.KlaudeMessage]#kotlin.Function1[kotlin.String?,kotlin.Unit]/PointingToDeclaration/-klaude/com.klaude/-klaude-client/chat.html
+$dokka.location:com.klaude/KlaudeClient/complete/#kotlin.String#kotlin.Function1[kotlin.String?,kotlin.Unit]/PointingToDeclaration/-klaude/com.klaude/-klaude-client/complete.html
+$dokka.location:com.klaude/KlaudeClient/execute/#kotlin.String#kotlin.Function1[kotlin.String?,kotlin.Unit]/PointingToDeclaration/-klaude/com.klaude/-klaude-client/execute.html
+$dokka.location:com.klaude/KlaudeMessage///PointingToDeclaration/-klaude/com.klaude/-klaude-message/index.html
+$dokka.location:com.klaude/KlaudeMessage/KlaudeMessage/#kotlin.String#com.klaude.KlaudeMessageType/PointingToDeclaration/-klaude/com.klaude/-klaude-message/-klaude-message.html
+$dokka.location:com.klaude/KlaudeMessage/text/#/PointingToDeclaration/-klaude/com.klaude/-klaude-message/text.html
+$dokka.location:com.klaude/KlaudeMessage/type/#/PointingToDeclaration/-klaude/com.klaude/-klaude-message/type.html
+$dokka.location:com.klaude/KlaudeMessageType.ASSISTANT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-klaude/com.klaude/-klaude-message-type/-a-s-s-i-s-t-a-n-t/index.html
+$dokka.location:com.klaude/KlaudeMessageType.USER///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-klaude/com.klaude/-klaude-message-type/-u-s-e-r/index.html
+$dokka.location:com.klaude/KlaudeMessageType///PointingToDeclaration/-klaude/com.klaude/-klaude-message-type/index.html
+$dokka.location:com.klaude/KlaudeMessageType/valueOf/#kotlin.String/PointingToDeclaration/-klaude/com.klaude/-klaude-message-type/value-of.html
+$dokka.location:com.klaude/KlaudeMessageType/values/#/PointingToDeclaration/-klaude/com.klaude/-klaude-message-type/values.html
+$dokka.location:com.klaude/KlaudePayload///PointingToDeclaration/-klaude/com.klaude/-klaude-payload/index.html
+$dokka.location:com.klaude/KlaudePayload/KlaudePayload/#kotlin.String#kotlin.String#kotlin.Int#kotlin.collections.List[kotlin.String]#kotlin.Float/PointingToDeclaration/-klaude/com.klaude/-klaude-payload/-klaude-payload.html
+$dokka.location:com.klaude/KlaudePayload/max_tokens_to_sample/#/PointingToDeclaration/-klaude/com.klaude/-klaude-payload/max_tokens_to_sample.html
+$dokka.location:com.klaude/KlaudePayload/model/#/PointingToDeclaration/-klaude/com.klaude/-klaude-payload/model.html
+$dokka.location:com.klaude/KlaudePayload/prompt/#/PointingToDeclaration/-klaude/com.klaude/-klaude-payload/prompt.html
+$dokka.location:com.klaude/KlaudePayload/stop_sequences/#/PointingToDeclaration/-klaude/com.klaude/-klaude-payload/stop_sequences.html
+$dokka.location:com.klaude/KlaudePayload/temperature/#/PointingToDeclaration/-klaude/com.klaude/-klaude-payload/temperature.html
+$dokka.location:com.klaude/KlaudeResponse///PointingToDeclaration/-klaude/com.klaude/-klaude-response/index.html
+$dokka.location:com.klaude/KlaudeResponse/KlaudeResponse/#kotlin.String/PointingToDeclaration/-klaude/com.klaude/-klaude-response/-klaude-response.html
+$dokka.location:com.klaude/KlaudeResponse/completion/#/PointingToDeclaration/-klaude/com.klaude/-klaude-response/completion.html
+com.klaude
+
